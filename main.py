@@ -1,6 +1,5 @@
 from personajes import Guerrero, Mago, Arquero, Combate
 
-
 def mostrar_personaje(personaje):
     print(
         f"{personaje.nombre} | "
@@ -8,7 +7,6 @@ def mostrar_personaje(personaje):
         f"Ataque: {personaje.ataque} | "
         f"Defensa: {personaje.defensa}"
     )
-
 
 def main():
     print("=" * 50)
@@ -40,7 +38,6 @@ def main():
         mostrar_personaje(personaje)
 
     print("\nFin del programa.")
-
 
 if __name__ == "__main__":
     main()
