@@ -23,8 +23,8 @@ Validaciones: se comprueban los datos iniciales y se evita que la vida sea negat
 Composición lógica del combate: la clase Combate administra los turnos, el historial y el resultado de la batalla.
 
 Archivos principales
-http://personajes.py: contiene las clases de personajes y el sistema de combate.
-http://main.py: ejecuta el programa y muestra un ejemplo de combate.
+`personajes.py`: contiene las clases de personajes y el sistema de combate.
+`main.py`: ejecuta el programa y muestra un ejemplo de combate.
 
 Requisitos
 Python 3.10 o una versión posterior.
@@ -33,9 +33,9 @@ Cómo ejecutar el proyecto
 Descarga o clona este repositorio.
 Abra una terminal en la carpeta del proyecto.
 Ejecuta el siguiente comando:
-python http://main.py
+`python main.py`
 En algunos sistemas, el comando puede ser:
-python3 http://main.py
+`python3 main.py`
 
 Resultado esperado
 El programa muestra los personajes disponibles, sus estadísticas, el desarrollo de los turnos del combate y el resultado final de la batalla.
